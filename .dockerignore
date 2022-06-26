@@ -1,0 +1,15 @@
+# Files to be ignored by Docker
+#
+
+
+.dockerignore
+
+.git
+.gitignore
+
+.editorconfig
+venv/
+output/
+__pycache__/
+LICENSE.txt
+*.md
