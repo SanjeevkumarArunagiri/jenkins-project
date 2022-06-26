@@ -4,4 +4,4 @@
   remote_user: remote_user
 
   tasks:
-    - shell: echo "Hello World from Jenkins" > /tmp/ansible-file
+    - shell: echo "Hello World from Jenkins and Ansible" > /tmp/ansible-file
