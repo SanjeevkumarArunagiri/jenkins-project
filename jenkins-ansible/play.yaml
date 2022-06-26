@@ -1,0 +1,7 @@
+---
+- name: Update servers
+  hosts: test01
+  remote_user: remote_user
+
+  tasks:
+    - shell: echo "Hello World from Jenkins" > /tmp/ansible-file
